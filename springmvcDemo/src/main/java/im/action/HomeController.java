@@ -14,6 +14,7 @@ import javax.servlet.http.HttpServletResponse;
  */
 public class HomeController implements Controller{
     public ModelAndView handleRequest(HttpServletRequest request, HttpServletResponse response) throws Exception {
+        System.out.println("test!");
         return new ModelAndView("hello");
     }
 }
